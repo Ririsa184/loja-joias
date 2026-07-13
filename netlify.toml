@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Redireciona todas as rotas para o index.html — necessário porque este é um
+# site de página única (SPA). Sem isso, recarregar uma rota interna dá erro 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
