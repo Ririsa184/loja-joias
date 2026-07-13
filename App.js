@@ -50,7 +50,7 @@ const App = () => {
 
       {/* Botão WhatsApp Fluindo */}
       <a 
-        href="https://wa.me/5511999999999" 
+        href="https://wa.me/5512935005340" 
         className="fixed bottom-24 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl z-40 animate-bounce"
         target="_blank" rel="noreferrer"
       >
